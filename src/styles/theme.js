@@ -16,7 +16,7 @@ const mainCss = {
       secondary: '#6C6C6C',      // Dim Gray
     },
 
-    //Additional Colors
+    //Additional Colors u change from here 
     success: {
       main: '#4CAF50',           // Green
       contrastText: '#FFFFFF',
@@ -41,7 +41,7 @@ const mainCss = {
   },
 
   typography: {
-    fontFamily: `'Poppins', 'Roboto', 'sans-serif'`,
+    fontFamily: `'Poppins', 'Roboto', 'sans-serif'`,   //1st number font will be applied on your entire project
     fontWeightLight: 400,  // Light
     fontWeightRegular: 500, // Regular/Medium
     fontWeightBold: 700,    // Bold

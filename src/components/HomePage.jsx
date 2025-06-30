@@ -1,17 +1,18 @@
-// HomePage.jsx
+// Only Components Parts Will Be Here
 import React from 'react';
 import { Box, Typography, Button, Paper } from '@mui/material';
 import useHomeStyles from '../styles/HomeStyle';
 import { IconButton } from '@mui/material';
 
+import profileIcon from '../assets/Images/Profile.png';   //Demo For Samridhi
 
-import profileIcon from '../assets/Images/Profile.png';
 
 const HomePage = () => {
   const styles = useHomeStyles();
 
   return (
-    <Box sx={styles.container}>
+    //Use Style Props
+    <Box sx={styles.container}>  
       <Paper elevation={3} sx={styles.paper}>
 
         <Typography sx={styles.title}>Welcome to Themed App</Typography>
